@@ -1,4 +1,5 @@
 import os
+os.system('shutdown /a')
 shut = input('Is it shutdown or restart (s, r): ')
 time = int(input('Enter time to shutdown: '))
 type = input('Is it in hours, minutes or seconds (h, m, s): ')
