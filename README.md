@@ -8,7 +8,7 @@ for any apps that i could prevent this i did (like ffmpeg).
 also credit will be givn here with the site that i got the .exe
 
 # How to use
-for gamdl youll need your cookies.txt file on the same directory as the .bat file
+for gamdl youll need your cookies.txt file on the same directory as the .bat file. also python is needed to be installed
 instructions on how to get your cookies.txt file can be found on the official gamdl repo
 ```
 https://github.com/glomatico/gamdl
