@@ -40,11 +40,11 @@ set "GAMDL_EXE=%PYTHON_DIR%\Scripts\gamdl.exe"
 set /p url="Enter URL: "
 set /p codec="Do you want to see the available codecs and decide which one you want or should it downlaod whichever it has available? (awnser: y=yes n=no): "
 if /I "%codec%"=="y" (
-    "%GAMDL_EXE%" -s --codec-song ask "%url%"
+    "%GAMDL_EXE%" -s --cover-format png --codec-song ask "%url%"
 ) else if /I "%codec%"=="n" (
     "%GAMDL_EXE%" -s "%url%"
 )
-"%GAMDL_EXE%" --codec-song ask "%url%"
+"%GAMDL_EXE%" -s --cover-format png --codec-song ask "%url%"
 del ffmpeg.exe
 del mp4decrypt.exe
 del N_m3u8DL-RE.exe
