@@ -45,7 +45,8 @@ if /I "%codec%"=="y" (
     "%GAMDL_EXE%" -s "%url%"
 )
 "%GAMDL_EXE%" --download-mode nm3u8dlre -s --cover-format png --codec-song ask "%url%"
+
+pause
 del ffmpeg.exe
 del mp4decrypt.exe
 del N_m3u8DL-RE.exe
-pause
