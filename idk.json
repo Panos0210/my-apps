@@ -37,7 +37,7 @@
             {
               "bind": "/portainer/Files/AppData/Config/ArchiSteamFarm/Logs",
               "container": "/app/logs"
-            }    
-          ]
-        }
+            }             
+ ]
+}
     
